@@ -17,6 +17,7 @@ app.get('/:sigla', (requisicao, resposta) => {
     if (!carro) {
         // ! Vazio Not
         // Se o carro não for encontrado, retorna erro 404
+        // aula 10122024
         resposta
         .status(404)
         .send(
