@@ -1,6 +1,5 @@
 import express from 'express';
 import { getCarros, getCarro, createCarro, updateCarro, deleteCarro } from '../controllers/carroController.js';
-import { route } from 'express/lib/application';
 
 const router = express.Router();
 
@@ -20,6 +19,3 @@ router.put("/:sigla", updateCarro);
 router.delete("/:sigla", deleteCarro);
 
 export default router;
-
-
-

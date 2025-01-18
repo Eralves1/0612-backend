@@ -66,7 +66,7 @@ export const getCarroBySigla = (sigla) => {
 };
 
 // Função que adiciona um novo carro ao array 
-export const createCarro = (novoCarro) => {
+export const createCarros = (novoCarro) => {
     carros2024.push(novoCarro);
     return novoCarro;
 };
